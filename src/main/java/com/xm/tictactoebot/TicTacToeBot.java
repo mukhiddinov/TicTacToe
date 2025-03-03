@@ -1,7 +1,6 @@
 package com.xm.tictactoebot;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import org.telegram.telegrambots.meta.api.methods.groupadministration.GetChat;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageText;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -14,11 +13,16 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.util.*;
 
 public class TicTacToeBot extends TelegramLongPollingBot {
-    private final String BOT_TOKEN = "7908074921:AAEr6VuaFOWBbYowey2K3DNCiJW7PYjqGio";
-    private final String BOT_USERNAME = "@tictac_toe_kresiki_noliki_bot";
+    private String BOT_TOKEN;
+    private String BOT_USERNAME;
 
     private Map<Long, TicTacToeGame> games = new HashMap<>();
     private Map<Long, Integer> messageIds = new HashMap<>();
+
+    public TicTacToeBot(String botToken, String botUsername) {
+        this.BOT_TOKEN = botToken;
+        this.BOT_USERNAME = botUsername;
+    }
 
     @Override
     public String getBotUsername() {
