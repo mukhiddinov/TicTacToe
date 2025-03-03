@@ -42,8 +42,8 @@ Bot started...
 
 ## 📞 Contact
 For questions or support:
-- **Telegram:** [@your_username](https://t.me/your_username)
-- **Email:** your_email@example.com
+- **Telegram:** [@your_username](https://t.me/KhusniddinMukhiddinov)
+- **Email:** muhiddinovxusniddin34@gmail.com
 
 Enjoy playing Tic Tac Toe! 🎉
 
