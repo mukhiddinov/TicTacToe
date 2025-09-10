@@ -8,8 +8,8 @@ A simple Telegram bot to play Tic Tac Toe using inline buttons.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/mukhiddinov/TicTacToeBot.git
-cd TicTacToeBot
+git clone https://github.com/mukhiddinov/TicTacToe.git
+cd TicTacToe
 ```
 
 ### 2️⃣ Requirements
