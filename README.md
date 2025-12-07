@@ -19,7 +19,7 @@ cd TicTacToe
 ### 3️⃣ Start the bot
 ```bash
 mvn clean install
-java -jar target/tictactoebot.jar
+java -jar target/{your_jar_filename}.jar
 ```
 You will be prompted to enter the bot token and username:
 ```
