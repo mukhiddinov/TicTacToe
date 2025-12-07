@@ -40,10 +40,6 @@ Bot started...
 
 ---
 
-## 📞 Contact
-For questions or support:
-- **Telegram:** [@khusniddin_mukhiddinov](https://t.me/KhusniddinMukhiddinov)
-- **Email:** muhiddinovxusniddin34@gmail.com
 
 Enjoy playing Tic Tac Toe! 🎉
 
